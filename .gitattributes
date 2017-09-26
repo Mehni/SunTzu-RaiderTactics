@@ -1,5 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
 .git* export-ignore
-.sln* export-ignore
+*.sln export-ignore
 ScoobyDooRaids/ export-ignore
