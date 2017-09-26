@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RaidStrategyDef>
+    <defName>ImmediateAttackSplitUp</defName>
+    <workerClass>ScoobyDooRaids.RaidStrategyWorker_ImmediateAttackSplitUp</workerClass>
+    <letterLabelEnemy>Raid!</letterLabelEnemy>
+    <arrivalTextEnemy>They are attacking immediately.\n\nWatch out - it looks like the raiders have learned some advanced tactics from an old Tube Television.</arrivalTextEnemy>
+    <pointsFactor>1.20</pointsFactor>
+    <selectionChance>1.5</selectionChance>
+    <minPawns>2</minPawns>
+    <minDaysPassed>30</minDaysPassed>
+    <arriveModes>
+      <li>EdgeDrop</li>
+      <li>EdgeWalkIn</li>
+    </arriveModes>
+  </RaidStrategyDef>
+  
+</Defs>
