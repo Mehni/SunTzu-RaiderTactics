@@ -2,16 +2,16 @@
 <ModMetaData>
 	<name>Sun Tzu Raider Tactics</name>
 	<author>Mehni</author>
-	<targetVersion>0.17.0</targetVersion>
+	<targetVersion>0.18.0</targetVersion>
 	<url>https://github.com/Mehni/SunTzu-RaiderTactics</url>
-	<description>Version: 0.17.0.1
+	<description>Version: 0.18.0.1
 
 &lt;size=20&gt;Description&lt;/size&gt;
-Adds a new and challenging raid type. Pirate raiders will split up to try and flank you.
+Adds a new and exciting raid type. Pirate raiders will split up to try and flank you. No longer will they be hapless idiots. They'll have improved AI and better decision making for a fun challenge.
 
 &lt;size=20&gt;How to use&lt;/size&gt;
 Step 1. Install mod. Save to add or remove from any existing savegame.
-Step 2. Get rekt.
+Step 2. Enjoy.
 
 &lt;size=20&gt;Credits and thanks:&lt;/size&gt;
 - The modding discord, in particular Why_is_that and erdelf, for helping with code.

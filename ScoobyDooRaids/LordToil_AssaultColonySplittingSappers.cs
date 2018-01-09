@@ -57,9 +57,12 @@ namespace ScoobyDooRaids
                 for (int i = 0; i < this.lord.ownedPawns.Count; i++)
                 {
                     Pawn pawn = this.lord.ownedPawns[i];
-                    if (pawn.equipment.Primary != null && pawn.equipment.Primary.def.Verbs[0].ai_IsBuildingDestroyer)
+                    if (pawn.equipment.Primary != null)
                     {
-                        list.Add(pawn);
+                        if (pawn.equipment.Primary.GetComp<CompEquippable>().AllVerbs.Any((Verb verb) => verb.verbProps.ai_IsBuildingDestroyer))
+                        {
+                            list.Add(pawn);
+                        }
                     }
                 }
                 if (list.Count == 0 && this.lord.ownedPawns.Count >= 2)
@@ -81,7 +84,8 @@ namespace ScoobyDooRaids
                 {
                     //this if/else statement is where the magic happens. 35 years seems like a good split between attack/ and defend the sapper
                     //Should this create compatability problems, look into pawn.Hashoffset with a module as an alternative.
-                    if (pawn2.ageTracker.AgeBiologicalYears >= 35) 
+                    //if (pawn2.ageTracker.AgeBiologicalYears >= 35) 
+                    if (pawn2.HashOffset() % 2 == 0)
                     {
 
                         float randomInRange;
