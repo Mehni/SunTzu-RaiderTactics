@@ -1,12 +1,12 @@
 # SunTzu-RaiderTactics
 
-Version: 0.17.0.1
+Version: 0.18.0.1
 
 # Description
 Adds a new and exciting raid type. Pirate raiders will split up to try and flank you. No longer will they be hapless idiots. They'll have improved AI and better decision making for a fun challenge.
 
 # How to use
-Step 1. Install mod. Save to add or remove from any existing savegame.  
+Step 1. Install mod. Safe to add or remove from any existing savegame.  
 Step 2. Enjoy.
 
 # Credits and thanks
